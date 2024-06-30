@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.Logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    margin-right: 16px;
+}
+
+a {
+    text-decoration: none;
+    color:#E5E7EB;
+    font-size: 18px;
+}
